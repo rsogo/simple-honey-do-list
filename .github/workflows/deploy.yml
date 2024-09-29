@@ -21,7 +21,7 @@ jobs:
       - name: Configure Git
         run: |
           git config --global user.email "ryohei.sogo+github@gmail.com"
-          git config --global user.name "CI/CD Process"
+          git config --global user.name "rsogo"
 
       - name: Install dependencies
         run: npm install
