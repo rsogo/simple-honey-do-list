@@ -28,6 +28,8 @@ jobs:
 
       - name: Build the project
         run: npm run build
+        env:
+          PUBLIC_URL: /simple-honey-do-list
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
